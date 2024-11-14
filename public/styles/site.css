@@ -1,0 +1,235 @@
+html{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1{
+    position: relative;
+    text-transform: uppercase;
+    color: #5893d3;
+    letter-spacing: -0.05em;
+    font-family: 'Anton', Arial, sans-serif;
+    font-size: 100px;
+    padding-left: 4%;
+}
+
+
+h2{
+    font-size: medium;
+}
+
+img {
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .logo{
+    width:80px;
+    box-shadow: none;
+    margin-left: 70%;
+    margin-top: 1%;
+  }
+
+.align{
+    float:right;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    font-size: x-large;
+
+}
+
+nav ul:hover{
+  color: #a0c1f3;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+.shorter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+
+.tag {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #75a1d0;
+
+  }
+
+.album-title{
+    color: #5893d3;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+    padding-top: 4%;
+}
+
+.home-title{
+    color: #000000;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: left;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+}
+
+.home-artist{
+    color: #000000;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 16;
+    letter-spacing:2px;
+    line-height: 1;
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+
+}
+.add_button{
+
+        border: none;
+        color: white;
+
+
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+        cursor: pointer;
+        background-color: white;
+        color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 100%;
+
+}
+
+    /* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  /* visited link */
+  a:visited {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+  }
+
+  .filter-album{
+    font-size: x-large;
+  }
+
+  .float-right{
+    float: right;
+  }
+
+  .label-input{
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+display: flex;
+flex-direction: column;
+background-color: rgb(192, 221, 247);
+padding: 70px;
+border-radius: 10%;
+
+  }
+
+  .align-right{
+    float: right;
+  }
+
+  .center{
+    margin-left: 40%;
+  }
+
+  .form-background{
+    background-color: rgb(192, 221, 247);
+    padding: 21px;
+  }
+
+  .tag-button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:rgb(255, 255, 255);
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 3px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.2s ease;
+}
+
+.tag-button:hover {
+  background-color: rgb(192, 221, 247);
+}
+
+.tag-button:active {
+  background-color: rgb(192, 221, 247);
+}
+
+.tag-button:active span {
+  margin-left: 9px;
+}
+
+.vertical{
+  display: flex;
+flex-direction: column;
+font-size: x-large;
+/* margin-top: 25%; */
+padding: 24px;
+}
+
+.horizontal{
+  display: flex;
+  flex-direction: row;
+}
